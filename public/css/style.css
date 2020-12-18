@@ -96,15 +96,36 @@ input[type="submit"]:hover {
 }
 .forth_row button{
 	width: 10%;
-	margin: 20px 45%;
+	line-height: 2.5em;
+	margin: 0px 45%;
 	cursor: pointer;
 	background: #6b47de;
 	border: none;
 	padding: 5px;
 	border-radius: 5px;
+	color: #fff;
 }
-
-
+.forth_row button:hover{
+	background: green;
+}
+.vintage{
+	margin: 30px 15%;
+}
+#lblGreetings{
+	display: block;
+	margin: 20px 0px;
+	font-family: arial;
+	font-size: 1.5em;
+}
+.time_spec{
+	width: 15%;
+	line-height: 2.1em;
+	color: #fff;
+	background: red;
+	position: absolute;
+	border-radius: 5px;
+	padding: .4em;
+}
 /*@media screen and (min-width: 350px) {
 	.second_row{
 	padding: 20px 2%;

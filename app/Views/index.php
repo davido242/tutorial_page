@@ -11,6 +11,7 @@
 	</div>
 	<div class="button_row">
 		<a href="log_in"><button class="blink">Time for Another Class<i class="fa fa-caret-right"></i></button></a>
+		<label id="lblGreetings"></label>
 	</div>
 <?php echo view('includes/footer');?>
 </body>

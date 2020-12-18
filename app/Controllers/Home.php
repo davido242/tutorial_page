@@ -23,6 +23,11 @@ class Home extends BaseController
 		return view('land');
 	}
 
+	public function success()
+	{
+		return view('successful');
+	}
+
 	//--------------------------------------------------------------------
 
 }
