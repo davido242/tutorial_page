@@ -18,6 +18,8 @@
 		</form>
 	</div>
 	
-<?php echo view('includes/footer');?>
+	<?php echo view('includes/footer');?>
+	<script type="text/javascript">
+</script>
 </body>
 </html>

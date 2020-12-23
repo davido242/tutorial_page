@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <html>
@@ -57,8 +56,9 @@
 		</ul>
 	</div>
 	<div class="forth_row">
-	<a href="home"><button>Log Out</button></a>
+	<a href="sound"><button>Log Out</button></a>
 	</div>
 <?php echo view('includes/footer');?>
 </body>
 </html>
+

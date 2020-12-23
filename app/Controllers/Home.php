@@ -28,6 +28,11 @@ class Home extends BaseController
 		return view('successful');
 	}
 
+	public function sound()
+	{
+		return view('sound');
+	}
+
 	//--------------------------------------------------------------------
 
 }

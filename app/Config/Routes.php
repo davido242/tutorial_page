@@ -35,6 +35,7 @@ $routes->get('help/', 'Home::help');
 $routes->get('log_in/', 'Home::log_in');
 $routes->get('page/', 'Home::page');
 $routes->get('success/', 'Home::success');
+$routes->get('sound/', 'Home::sound');
 
 /**
  * --------------------------------------------------------------------
