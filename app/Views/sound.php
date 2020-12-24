@@ -29,7 +29,7 @@
   <div id="chat_div">
     <textarea id="mess">
     </textarea>
-    <input type="button" value="Send" onclick="post();">
+    <input type="button" value="Play" onclick="post();">
     <p class="demo">Demo:-Post Something to test Notification Sound</p>
   </div>
 
