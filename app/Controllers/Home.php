@@ -33,6 +33,11 @@ class Home extends BaseController
 		return view('sound');
 	}
 
+	public function javs()
+	{
+		return view('input');
+	}
+
 	//--------------------------------------------------------------------
 
 }

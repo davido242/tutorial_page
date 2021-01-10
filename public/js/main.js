@@ -14,76 +14,6 @@ var myDate = new Date();
         '<b>' + greet + '</b>';
         alert (greet);
 
-// From Java in Anambra
-// function myTimer() {
-//   var d = new Date();
-//   document.getElementById("demon").innerHTML = d.toLocaleTimeString();
-// }
-
-// Funtional Programmin Language
-// const squareList = arr => {
-//   // Only change code below this line
-//   return arr.reduce((sqrIntegers, num) => {
-//     return Number.isInteger(num) && num > 0
-//       ? sqrIntegers.concat(num * num)
-//       : sqrIntegers;
-//   }, []);
-//   // Only change code above this line
-// };
-
-// const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
-// console.log(squaredIntegers);
-
-// let foods = {"beans:2", "yam:3", "garri:4"};
-// // foods obj = new foods();
-// console.log(obj.getRandomElement(foods));
-
-
-
-// 18th December practicals
-
-
-// Function that returns a string representing a cup of green tea
-const prepareGreenTea = () => 'greenTea';
-
-// Function that returns a string representing a cup of black tea
-const prepareBlackTea = () => 'blackTea';
-
-/*
-Given a function (representing the tea type) and number of cups needed, the
-following function returns an array of strings (each representing a cup of
-a specific type of tea).
-*/
-const getTea = (prepareTea, numOfCups) => {
-  const teaCups = [];
-
-  for(let cups = 1; cups <= numOfCups; cups += 1) {
-    const teaCup = prepareTea();
-    teaCups.push(teaCup);
-  }
-  return teaCups;
-};
-
-// Only change code below this line
-const tea4GreenTeamFCC = (prepareGreenTea, 27);
-const tea4BlackTeamFCC = (prepareBlackTea, 13);
-// Only change code above this line
-console.log(tea4BlackTeamFCC);
-console.log(tea4GreenTeamFCC);
-document.getElementById('fino').innerHTML = "Geen tea Fans: " + tea4GreenTeamFCC + "<br /> " +
- "Black tea Fans:" +tea4BlackTeamFCC;
-// document.getElementById('feno').innerHTML = tea4BlackTeamFCC;
-
-
-const carname = "Volvo";
-myFunction();
-
-function myFunction(){
-  fixu = document.getElementById("demoj");
-  fixu.innerHTML = "my car Name is" + carname;
-}
-
-
 // sound script
 
 var myGamePiece;
@@ -221,3 +151,134 @@ function clearmove() {
     myGamePiece.speedX = 0; 
     myGamePiece.speedY = 0; 
 }
+
+// Night of 5th Jannuary ratings of 50% functional programming
+
+function sliceArray(anim, beginSlice, endSlice) {
+  // Only change code below this line
+
+return anim.slice(beginSlice, endSlice);
+
+  // Only change code above this line
+}
+var inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant", "beef", "rat", "cat", "fish"];
+//var newEmdee = inputAnim.slice(4,8)
+sliceArray(inputAnim, 1, 3);
+
+
+// next
+
+function nonMutatingConcat(original, attach, finland) {
+  // Only change code below this line
+return original.concat(attach).concat(finland)
+
+  // Only change code above this line
+}
+var first = [1, 2, 3];
+var second = [4, 5];
+var sixed = ["gold", "Iron"];
+nonMutatingConcat(first, second, sixed);
+console.clear()
+console.log(nonMutatingConcat(first));
+
+// 63% gone with functional programming
+function nonMutatingPush(original, newItem) {
+  // Only change code below this line
+  return original.concat(newItem);
+
+  // Only change code above this line
+}
+var first = ["one", 2, 3];
+var second = [4, "five"];
+nonMutatingPush(first, second);
+console.clear()
+console.log(nonMutatingPush(first,second))
+
+// another one
+
+const users = [
+  { name: 'John', age: 34 },
+  { name: 'Amy', age: 20 },
+  { name: 'camperCat', age: 10 }
+];
+
+const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
+console.log(sumOfAges); // 64
+
+// another Drink
+
+const uzers = [
+  { name: 'John', age: 34 },
+  { name: 'Amy', age: 20 },
+  { name: 'camperCat', age: 10 }
+];
+
+const uzersObj = uzers.reduce((obj, user) => {
+  obj[user.name] = user.age;
+  return obj;
+}, {});
+console.log(uzersObj); // { John: 34, Amy: 20, camperCat: 10 }
+
+
+// 7th January, 2021
+const squareList = arr => {
+  // Only change code below this line
+  return arr
+   .filter(num => num > 0 && num % parseInt(num) === 0)
+    .map(num => Math.pow(num, 2));
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.clear()
+console.log(squaredIntegers);
+
+// 8th January, 2021
+var strHip = "Hello Monday Welcome and how Body na, Thanks!";
+    //return  str.split(/\W/);
+var anotherHip = strHip.split(" ", 4);
+console.clear()
+console.log(anotherHip)
+
+// function splitify(str) {
+//   // Only change code below this line
+//   return  str.split(/\W/);
+//   // Only change code above this line
+// }
+// splitify("Hello World,I-am code");
+// console.clear()
+// console.log(splitify)
+
+// var d = ["bitch", "fable", "dance"];
+// var t = ["Une", "Doe", "tre"];
+// var feeble = d.concat(t);
+// console.log(feeble);
+// var stlle = d.join(" ");
+// console.log(stlle)
+
+// function sentensify(str) {
+//   // Only change code below this line
+// //return str.split(/\W/).join(" ");
+// return str.split(/\W/);
+//   // Only change code above this line
+// }
+// sentensify("May-the-force-be-with-you");
+// console.log(sentensify)
+
+
+// getinng to the end of this session
+
+var globalTitle = "Winter Is Coming";
+// Only change code below this line
+function urlSlug(title) {
+return title
+.split(/\W/)
+.filter(obj => {
+    return obj !== "";
+})
+.join("-")
+.toLowerCase();
+}
+var urlSlug = globalTitle
+// Only change code above this line
+console.log(urlSlug());

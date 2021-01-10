@@ -8,31 +8,19 @@
 <body>
 	<div class="first_row">
 		<h2>Web-Development Online Class!</h2>
+		<h2 id="demo"></h2>
 	</div>
 	<div class="button_row">
 		<a href="log_in"><button class="blink">Time for Another Class<i class="fa fa-caret-right"></i></button></a>
 		<label id="lblGreetings"></label>
 	</div>
 	<div class="button_row bossy">
-		<h4>Letter to my Boss:</h4>
-		<p>
-			Compliment of the season Boss!
-			I give credit to God who has been my strenght in the zeal to keep moving by giving me the oppurtunity to get mentorship, advices and motivation through you Sir!
-			From the researches and videos watched regarding the requirements on the roadmap of a developer, it is obvious that you have given me all necessary advice and materials to start and get to the top! I remain greateful!!
-			Please accept this expression amongst my seasional appreciation which signifies my progress in Dev World in relation to the past.
-			Most at times, your busy schedule makes me feel like you have given up on me due to too much immature questions and enlightenment I do request, but you always surprise me at the right time with enough of the answers with cause and effect from experience!
-			Finally, you have proven that the most relevant softwares and materials needed in Dev World are usually free and Demands just an individual determination and patience to develop oneself!
-			Once more, I appreciate your mentorship Sir!.
-			Happy Christmas and a Blessed New Year in Advance!!
-			Best Regards! MD
-		</p>
 		<p>
 			<h2>To be a developer, anywhere, you have to ‘spiral out’ some skills:</h2>
 			<ul>
 				<li>- A programming language, say Javascript or PHP</li>
 				<li>- How to structure that code</li>
 				<li>- How to test that code automatically</li>
-				<li>- How to turn a problem description into code</li>
 				<li>- How to turn a problem description into code</li>
 			</ul>
 		<details>
@@ -82,7 +70,7 @@
 				<details>
 					<summary>Finish Up:</summary>
 					<ul>
-								- How to monitor your applications
+`- How to monitor your applications
 - How to alert on faults and errors
 - 		How to isolate an error to its root cause
 
@@ -115,12 +103,12 @@ The programming language part is definitely the first place to start. But you’
 
 It’s a lot to learn - but take it step by step, learn each day, apply everything you learn and work towards building a medium-sized application on your own.
 
-- Alan Mellor
+- Alan Mellor`
 					</ul>
 				</details>
 			</ul>
 		</details>
-		</p>
+
 	</div>
 	 
 <?php echo view('includes/footer');?>

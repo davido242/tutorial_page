@@ -8,6 +8,12 @@ body{
 	background: linear-gradient(to right, #020754, #820e3e);
 	color: #fff;
 }
+summary{
+	outline: none;
+}
+ul li{
+	list-style: none;
+}
 .first_row{
 	width: 70%;
 	margin: 100px  15%;
@@ -142,9 +148,10 @@ canvas {
 	margin: 0 40%;
 		}	
 		.bossy {
-	/*width: 100% !important;*/
-	margin: 0 0%;
-	/*background: green;*/
+	margin: 0 10%;
 	padding: 40px;
+	text-align: center;
+	background: navy;
+	outline: 5px solid #fff;
 		}
 }
