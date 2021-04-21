@@ -36,7 +36,7 @@ ul li{
 	font-size: 1.5em;
 	border:none;
 	border-radius: 2px;
-	line-height: 0.5em;
+	/*line-height: 0.5em;*/
 	cursor: pointer;
 }
 
@@ -87,23 +87,24 @@ input[type="submit"]:hover {
   background: #17d817;
 }
 .third_row{
-	width: 400px;
-	height: 400px;
-	margin: 0 35%;
+	width: 315px;
+	height: 315px;
+	margin: 0 auto;
 	border-radius:50%;
 	background: red;
 	text-align: center;
 	padding: 30px 60px;
 	font-size: 1.5em;
-	line-height: 1.5em;
 }
 .third_row i{
 	font-size: 3.5em;
 }
+.forth_row{
+	text-align: center;
+}
 .forth_row button{
-	width: 10%;
+	width: 25%;
 	line-height: 2.5em;
-	margin: 0px 45%;
 	cursor: pointer;
 	background: #6b47de;
 	border: none;
@@ -124,15 +125,14 @@ input[type="submit"]:hover {
 	font-size: 1.5em;
 }
 .time_spec{
-	width: 15%;
+	/*width: auto;*/
 	line-height: 2.1em;
 	color: #fff;
 	background: red;
-	position: absolute;
 	border-radius: 5px;
 	padding: .4em;
 }
-p{
+	p{
 	display: inline-block;
 }
 
@@ -146,12 +146,19 @@ canvas {
 	.button_row{
 	width: 80%;
 	margin: 0 40%;
-		}	
-		.bossy {
+	}	
+	.bossy {
 	margin: 0 10%;
 	padding: 40px;
 	text-align: center;
 	background: navy;
 	outline: 5px solid #fff;
-		}
+	}
+	.forth_row button{
+	width: 10%;
+	}
+	.time_spec{
+	width: 35%;
+	margin: 0 auto;
+	}
 }

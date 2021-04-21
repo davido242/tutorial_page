@@ -19,6 +19,15 @@
 			<input type="submit" value="Login">
 		</form>
 	</div>
+	<?php
+	// let wadupt = 10;
+
+	// while(wadupt > 10){
+	// 	echo "The shit is greater than 10 Mehn!";
+	// }else{
+	// echo "the shit aint upto 10 Mehn!";
+	// }
+	?>
 	
 	<?php echo view('includes/footer');?>
 	<script type="text/javascript">
